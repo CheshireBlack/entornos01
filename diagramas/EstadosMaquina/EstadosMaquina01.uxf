@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>400</x>
+      <y>272</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>448</x>
+      <y>264</y>
+      <w>72</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Apagado</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>536</x>
+      <y>336</y>
+      <w>80</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Comprobación
+autonoma</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>288</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Encender</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;80.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>440</x>
+      <y>416</y>
+      <w>72</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Fuera de
+Servicio</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>632</x>
+      <y>416</y>
+      <w>72</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>En espera</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>608</x>
+      <y>336</y>
+      <w>80</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Correcto</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0;80.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>352</y>
+      <w>56</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Fallo</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>456</x>
+      <y>288</y>
+      <w>24</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;160.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>272</y>
+      <w>200</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>230.0;180.0;230.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>432</x>
+      <y>496</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Mantenimiento</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>464</x>
+      <y>440</y>
+      <w>104</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Servicio técnico</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>440</y>
+      <w>256</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Servicio técnico</panel_attributes>
+    <additional_attributes>200.0;10.0;200.0;90.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>272</y>
+      <w>64</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>400</x>
+      <y>552</y>
+      <w>360</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>Sacar Dinero
+--
+entrada / leerTarjeta
+salida / expulsaTarjeta
+
+-
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>696</x>
+      <y>424</y>
+      <w>152</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2=Meter tarjeta</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0;110.0;220.0;80.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>408</x>
+      <y>640</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>736</x>
+      <y>640</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>544</x>
+      <y>632</y>
+      <w>72</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Seleccionar
+Importe</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>640</x>
+      <y>632</y>
+      <w>72</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Entrega
+Dinero</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>640</y>
+      <w>56</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>640</y>
+      <w>48</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>608</x>
+      <y>640</y>
+      <w>48</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>704</x>
+      <y>640</y>
+      <w>48</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>696</x>
+      <y>416</y>
+      <w>224</w>
+      <h>248</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Transacción 
+finalizada
+o cancelada
+por el usuario</panel_attributes>
+    <additional_attributes>80.0;290.0;180.0;290.0;180.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>424</y>
+      <w>48</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;160.0;10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>448</x>
+      <y>624</y>
+      <w>72</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Autenticar
+Usuario
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>1184</w>
+      <h>232</h>
+    </coordinates>
+    <panel_attributes>Ejemplo de un cajero automático:
+El cajero está inicialmente apagado. Después de poner en marcha el cajero, inicia un conjunto de tests de
+manera autónoma. Tras el test, pueden pasar dos cosas. 1- Si el test falla, el cajero entra en modo
+"Fuera de servicio". 2- Si el test no falla entonces el cajero entra en modo de espera. Este modo de
+espera es el modo en el que el cajero se encontrará a la espera de un cliente. Del estado de espera, un 
+técnico puede apagar el cajero. Desde el estado "Fuera de servicio" un técnico puede apagar el 
+cajero. Un  técnico puede poner el cajero en mantenimiento, tanto desde el modo "En espera" como 
+desde el modo "Fuera de Servicio. Cuando el técnico finaliza el mantenimiento, el cajero vuelve a 
+la autocomprobación . Si el usuario inserta una tarjeta (en el estado en espera) automáticamente
+se inicia un proceso más complejo que es la operación de sacar dinero.
+La operación sacar dinero al entrar el sistema lee la tarjeta y al salir la expulsa.
+Se comprende de 3 operaciones, autenticar usuario (que a su vez es un estado complejo, que no vamos
+a reflejar en este diagrama), seleccionar importe y sacar el dinero.
+En cualquier momento el usuario puede cancelar la operación, lo que llevará al cajero a "En Espera"
+Si la operación falla por un problema con el sistema, el cajero pasará a fuera de servicio.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>272</x>
+      <y>256</y>
+      <w>680</w>
+      <h>456</h>
+    </coordinates>
+    <panel_attributes>Cajero
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
